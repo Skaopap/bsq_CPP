@@ -7,10 +7,10 @@
 int main()
 {
 	std::cout << "--- HELLO GUYS ---" << std::endl;
-	FatTab* Jack = new FatTab(10);
-	Jack->display();
+	FatTab* Jack = new FatTab(50);
+	//Jack->display();
 
-	Jack->findThatSquare();
+	Jack->findThatSquareBetter();
 
 	std::cout << "--- LOOK THAT SQUARE ---" << std::endl;
 

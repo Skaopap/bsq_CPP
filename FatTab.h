@@ -6,6 +6,7 @@ public:
 	virtual ~FatTab();
 	void display();
 	void findThatSquare();
+	void findThatSquareBetter();
 	inline void setRandFactor(int rand) { m_iRandFactor = rand; }
 
 private : 
